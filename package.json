@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21.4",
+        "laravel-mix": "^6.0.31",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.42.1",
+        "sass-loader": "^12.1.0",
+        "vee-validate": "^2.2.15",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@deveodk/vue-toastr": "^1.1.0",
+        "jquery": "^3.6.0",
+        "vue": "^2.6.14",
+        "vue-axios": "^3.3.7",
+        "vue-native-notification": "^1.1.1",
+        "vue-router": "^3.5.2",
+        "vue-sweetalert2": "^3.0.6",
+        "vue-tinymce-editor": "^1.6.2",
+        "vue-toast-notification": "^0.4.1",
+        "vue2-google-maps": "^0.10.7",
+        "vuejs-datetimepicker": "^1.1.13",
+        "vuex": "^3.6.2"
+    }
+}
